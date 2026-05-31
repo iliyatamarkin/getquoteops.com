@@ -4,7 +4,7 @@ The site files are ready locally:
 
 - `site/index.html`
 - `site/styles.css`
-- `site/assets/quoteops-dashboard-hero.png`
+- `site/assets/quoteops-freight-dashboard-hero.png`
 
 Squarespace is currently serving the default "Coming Soon" page for `getquoteops.com`.
 
@@ -18,7 +18,7 @@ Create these sections:
 
 1. Hero
 2. What it does
-3. Packages
+3. Offers
 4. Who it helps
 5. How it works
 6. Contact
@@ -26,7 +26,7 @@ Create these sections:
 Upload:
 
 ```txt
-site/assets/quoteops-dashboard-hero.png
+site/assets/quoteops-freight-dashboard-hero.png
 ```
 
 Use it as the hero image/background.
@@ -35,7 +35,7 @@ Use it as the hero image/background.
 
 If your Squarespace plan supports custom code:
 
-1. Upload `site/assets/quoteops-dashboard-hero.png` to Squarespace.
+1. Upload `site/assets/quoteops-freight-dashboard-hero.png` to Squarespace.
 2. Copy the uploaded image URL.
 3. Open `site/squarespace-custom-css.css`.
 4. Replace:
@@ -62,9 +62,9 @@ QuoteOps
 2. Change the message to:
 
 ```txt
-Quote-request automations for local service businesses.
+Freight document trackers for billing-ready loads.
 
-We help cleaners, landscapers, HVAC companies, and contractors capture inquiries, follow up faster, and stop good jobs from slipping through the cracks.
+We help small freight teams turn PODs, BOLs, invoices, rate confirmations, and carrier docs into one simple view of what is missing, ready, and waiting on follow-up.
 
 Email Iliya: iliya@getquoteops.com
 ```

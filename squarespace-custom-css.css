@@ -141,6 +141,13 @@
   margin: 0;
 }
 
+.qo-scope-note {
+  max-width: 840px;
+  margin: 24px 0 0;
+  color: #191817;
+  font-weight: 650;
+}
+
 .qo-contact {
   display: flex;
   justify-content: space-between;

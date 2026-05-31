@@ -244,14 +244,14 @@ p {
 }
 
 .feature-grid,
-.pricing-grid {
+.offer-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
 }
 
 .feature-grid article,
-.price-card {
+.offer-card {
   min-height: 220px;
   padding: 26px;
   border: 1px solid var(--line);
@@ -261,7 +261,7 @@ p {
 }
 
 .feature-grid p,
-.price-card p {
+.offer-card p {
   margin-bottom: 0;
   font-size: 16px;
 }
@@ -270,17 +270,24 @@ p {
   background: #f1eee8;
 }
 
-.pricing-grid {
+.offer-grid {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.price-card {
+.offer-card {
   min-height: 190px;
 }
 
-.price-card.featured {
+.offer-card.featured {
   border-color: rgba(31, 118, 111, 0.38);
   box-shadow: var(--shadow);
+}
+
+.scope-note {
+  max-width: 840px;
+  margin: 24px 0 0;
+  color: var(--ink);
+  font-weight: 650;
 }
 
 .split {
@@ -404,7 +411,7 @@ p {
 
   .proof-strip,
   .feature-grid,
-  .pricing-grid,
+  .offer-grid,
   .split,
   .steps,
   .contact-band {
